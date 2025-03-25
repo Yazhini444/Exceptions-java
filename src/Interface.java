@@ -5,13 +5,13 @@ interface Vehicle {
 
 class Car implements Vehicle {
     public void start() {
-        System.out.println("Car is starting...");
+        System.out.println("Car is starting");
     }
 }
 
 class Bike implements Vehicle {
     public void start() {
-        System.out.println("Bike is starting...");
+        System.out.println("Bike is starting");
     }
 }
 
