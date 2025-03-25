@@ -3,7 +3,7 @@ class Array {
         int[] arr = {2,4,6};
 
         try {
-            System.out.println(arr[5]); // Invalid index
+            System.out.println(arr[5]); 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: " + e.getMessage());
         }
